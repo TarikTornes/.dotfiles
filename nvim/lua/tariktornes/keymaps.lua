@@ -13,7 +13,7 @@ vim.g.mapleader = " "
 
 -- NEUTRAL
 -- Opens file explorer Vertically with 38 percent of the lower half 
-keymap("n", "<leader>e", ":Sex 30<cr>", opts)
+keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Change keybindings for switch buffers/window
 keymap("n", "<C-h>", "<C-w>h", opts)

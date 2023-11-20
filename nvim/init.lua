@@ -1,3 +1,6 @@
 require "tariktornes.options"
 require "tariktornes.keymaps"
 require "tariktornes.plugins"
+require "tariktornes.colorscheme"
+require "tariktornes.vimtex"
+vim.cmd "colorscheme desert"
