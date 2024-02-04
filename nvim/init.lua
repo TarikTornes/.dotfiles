@@ -18,4 +18,6 @@ require "tariktornes.plugins"
 require "tariktornes.cmp"
 require "tariktornes.colorscheme"
 require "tariktornes.vimtex"
+require "tariktornes.lsp"
 vim.cmd "colorscheme desert"
+

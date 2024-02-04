@@ -16,7 +16,14 @@ require("lazy").setup({
   "hrsh7th/cmp-path",                       -- path completions
   "hrsh7th/cmp-cmdline",                    -- cmdline completions
   "saadparwaiz1/cmp_luasnip",               -- snippet completions
-
+  "hrsh7th/cmp-nvim-lsp",
+  "hrsh7th/cmp-nvim-lua",
+    
+  -- LSP
+  "williamboman/mason.nvim",
+  "williamboman/mason-lspconfig.nvim",
+  "neovim/nvim-lspconfig",
+  "jose-elias-alvarez/null-ls.nvim",
 
   -- Snippets
   "L3MON4D3/LuaSnip",                       -- snippet engine
