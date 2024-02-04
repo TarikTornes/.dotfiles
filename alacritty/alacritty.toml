@@ -2,7 +2,10 @@
 
 [font]
 size = 14
-normal = {family = "JetBrains Mono", style="Regular"}
+normal = {family = "Hack Nerd Font", style="Regular"}
+italic = {family = "Hack Nerd Font", style="Italic"}
+bold = {family = "Hack Nerd Font", style="Bold"}
+bold_italic = {family = "Hack Nerd Font", style = "Bold Italic"}
 
 
 [window]
