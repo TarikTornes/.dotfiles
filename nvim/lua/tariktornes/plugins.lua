@@ -1,7 +1,7 @@
 
 require("lazy").setup({
   -- My plugins here
-  "wbthomason/packer.nvim",                 -- Have packer manage itself
+  -- "wbthomason/packer.nvim",                 -- Have packer manage itself
   "nvim-lua/popup.nvim",                    -- An implementation of the Popup API from vim in Neovim
   "nvim-lua/plenary.nvim",                  -- Useful lua functions used ny lots of plugins
   "lervag/vimtex",
@@ -20,9 +20,10 @@ require("lazy").setup({
   "hrsh7th/cmp-nvim-lua",
     
   -- LSP
+
+  "neovim/nvim-lspconfig",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
-  "neovim/nvim-lspconfig",
   "jose-elias-alvarez/null-ls.nvim",
 
   -- Snippets

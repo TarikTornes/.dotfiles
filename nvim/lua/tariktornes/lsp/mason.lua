@@ -1,6 +1,10 @@
 local servers = {
   "lua_ls",
   "pyright",
+  "html",
+  "intelephense",
+  "clangd",
+  "jdtls",
 }
 
 local settings = {

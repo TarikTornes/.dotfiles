@@ -1,0 +1,44 @@
+
+[Command]
+
+cmd + j : Move space/desktop to left (Mission Control)
+cmd + k : Move space/desktop to right (Mission Control)
+cmd + 1 : Move to the first space/desktop (Mission Control)
+cmd + 2 : Move to the second space/desktop (Mission Control)
+cmd + 3 : Move to the third space/desktop (Mission Control)
+
+[Command + Shift]
+
+cmd + shift + j : Focus to the bottom window (skhd)
+cmd + shift + k : Focus to the above window (skhd)
+cmd + shift + h : Focus to the left window (skhd)
+cmd + shift + l : Focus to the right window (skhd)
+
+
+[Control]
+
+ctrl + h : select left tmux pane (tmux) 
+ctrl + j : select bottom tmux pane (tmux) 
+ctrl + k : select upper tmux pane (tmux) 
+ctrl + l : select right tmux pane (tmux) 
+
+ctrl + UP : Mission Control
+ctrl + DOWN : Application Windows
+
+
+
+[Option]
+
+alt + Up : resize tmux pane up      (tmux)
+alt + Down : resize tmux pane down  (tmux)
+alt + Left : resize tmux pane left  (tmux)
+alt + tmux : resize tmux pane right (tmux)
+
+[Option + Shift]
+
+alt + shift + h : resize window to left (skhd)
+alt + shift + j : resize window to down (skhd)
+alt + shift + k : resize window to up (skhd)
+alt + shift + l : resize window to right (skhd)
+
+
