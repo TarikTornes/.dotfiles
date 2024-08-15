@@ -4,7 +4,14 @@ require("lazy").setup({
   -- "wbthomason/packer.nvim",                 -- Have packer manage itself
   "nvim-lua/popup.nvim",                    -- An implementation of the Popup API from vim in Neovim
   "nvim-lua/plenary.nvim",                  -- Useful lua functions used ny lots of plugins
+{
   "lervag/vimtex",
+  lazy = false,     -- we don't want to lazy load VimTeX
+  -- tag = "v2.15", -- uncomment to pin to a specific release
+  init = function()
+    -- VimTeX configuration goes here
+  end
+},
 
   -- Colorschemes
   -- "lunarvim/colorschemes"                -- A bunch of colorschemes you can try out
