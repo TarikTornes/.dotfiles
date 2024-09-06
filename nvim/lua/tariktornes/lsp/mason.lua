@@ -5,6 +5,7 @@ local servers = {
   "intelephense",
   "clangd",
   "jdtls",
+  "rust_analyzer",
 }
 
 local settings = {
